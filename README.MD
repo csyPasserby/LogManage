@@ -12,16 +12,12 @@
 
 
    dependencies {
-   
-   
-   	        implementation 'com.github.csyPasserby:LogManage:v1.0.1'
-            
+   	        implementation 'com.github.csyPasserby:LogManage:v1.0.1'    
    	}
 
 
 
     使用方法：
-
   //初始化，建议放在MyApplication初始化，past表示保存几天的日志数据
         LogManageUtils.init(this,PAST);
 
