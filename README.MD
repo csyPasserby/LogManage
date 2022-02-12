@@ -8,19 +8,10 @@
     			maven { url 'https://jitpack.io' }
     		}
     	}
-
-
-
-
-
-
-
-
-   dependencies {
+      
    
    	        implementation 'com.github.csyPasserby:LogManage:v1.0.1'    
-   	}
-
+  
 
 
     使用方法：
