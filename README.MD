@@ -25,3 +25,5 @@
         
         //获取这段时间内的日志文件进行压缩成zip文件。可作为日志上传到服务器
         LogManageUtils.getUploadLogFile(startDate,endDate);
+        
+        有建议可直接发邮箱779772455@qq.com
