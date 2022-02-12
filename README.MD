@@ -11,7 +11,13 @@
 
 
 
+
+
+
+
+
    dependencies {
+   
    	        implementation 'com.github.csyPasserby:LogManage:v1.0.1'    
    	}
 
