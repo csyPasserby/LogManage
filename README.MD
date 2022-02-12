@@ -1,6 +1,8 @@
 
   日志管理类
    引入：
+   
+   
     allprojects {
     		repositories {
     			...
@@ -8,9 +10,12 @@
     		}
     	}
 
+
    dependencies {
    	        implementation 'com.github.csyPasserby:LogManage:v1.0.1'
    	}
+
+
 
     使用方法：
 
