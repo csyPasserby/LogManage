@@ -5,14 +5,15 @@
    
     allprojects {
     		repositories {
-    			...
     			maven { url 'https://jitpack.io' }
     		}
     	}
 
-
    dependencies {
+   
+   
    	        implementation 'com.github.csyPasserby:LogManage:v1.0.1'
+            
    	}
 
 
