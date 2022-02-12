@@ -7,6 +7,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "My Application"
-include ':app'
+rootProject.name = "LogManage"
 include ':LogManageUtils'

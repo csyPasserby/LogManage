@@ -45,7 +45,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.csyPasserby'
-                artifactId = 'android-example'
+                artifactId = 'LogManage'
                 version = '1.0.0'
             }
         }
