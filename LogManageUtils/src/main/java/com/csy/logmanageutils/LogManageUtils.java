@@ -79,7 +79,25 @@ public class LogManageUtils {
 
 
     }
+    /**
+     *
+     * @param str 写入的数据
+     */
+    public static void writes(Object str) {
+        if (null == mContext || null == instance || null == todayLogFile|| !todayLogFile.exists())return;
+        String logStr = "^"+getFunctionInfo() + " - " + str.toString();
+        Log.i(tag, logStr);
+        try {
+            BufferedWriter bw = new BufferedWriter(new FileWriter(todayLogFile, true));
+            bw.write(logStr);
+            bw.write("\r\n");
+            bw.flush();
+        } catch (Exception e) {
+            Log.e(tag, "Write failure !!! " + e.toString());
+        }
 
+
+    }
     //写入带入当前信息
     private static String getFunctionInfo() {
         StackTraceElement[] sts = Thread.currentThread().getStackTrace();
