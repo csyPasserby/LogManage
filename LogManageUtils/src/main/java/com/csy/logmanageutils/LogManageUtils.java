@@ -94,7 +94,7 @@ public class LogManageUtils {
     }
 
     //获取当天文件
-    private static File getLogFile() {
+    public static File getLogFile() {
         File file;
         if (Environment.getExternalStorageState().equals("mounted")) {
             file = new File(Objects.requireNonNull(mContext.getExternalFilesDir("Log")).getPath() + "/");
